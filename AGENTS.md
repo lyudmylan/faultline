@@ -22,7 +22,7 @@ Format, lint, and tests must pass locally before pushing.
 ## Workflow
 
 - Routine changes may be committed directly to `main`; use a branch + PR when a change
-  alters the SPEC contract. (Deliberate loosening of the shared github-shipping default.)
+  alters the SPEC contract. (Deliberate loosening of the shared shipping default.)
 - Update `CHANGELOG.md` in the same commit as any behavior change.
 - After changing the API surface, regenerate `docs/openapi.json` in the same commit.
 
