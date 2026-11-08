@@ -8,6 +8,10 @@ observable through structured JSON logs and Prometheus metrics.
 The full contract — API surface, failure semantics, telemetry schema, and
 behavioral invariants — lives in [docs/SPEC.md](docs/SPEC.md).
 
+faultline is the seeded-fault lab that
+[konan](https://github.com/lyudmylan/konan), an agentic production-incident
+investigator, runs against.
+
 ## Quickstart
 
 Requires Python 3.12+ and [uv](https://docs.astral.sh/uv/).
@@ -56,3 +60,7 @@ uv run python -m faultline.export_openapi
 
 `docs/openapi.json` is the committed API contract; regenerate it in the
 same PR as any surface change (a drift test enforces this).
+
+## License
+
+Apache-2.0; see [LICENSE](LICENSE) and [NOTICE](NOTICE).
